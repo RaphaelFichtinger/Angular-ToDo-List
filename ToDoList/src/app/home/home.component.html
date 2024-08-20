@@ -1,0 +1,20 @@
+<div class="mainContainer">
+    <h1>TodoList</h1>
+    <input type="text" [(ngModel)]="inputfield">
+    <button (click)= "getInputValue()">add</button>
+
+
+
+    <div class="item" *ngFor="let item of todos let i = index">
+        <p>{{ item }}</p> <button (click)="deleteItem(i)">x</button> <!--- ANGULAR SCHLEIFE MIT INDEX -->
+    </div>
+
+
+    <div class="container">
+    </div>
+
+
+
+
+
+    

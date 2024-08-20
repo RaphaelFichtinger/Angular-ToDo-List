@@ -1,0 +1,46 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.item {
+    width: 10vw;
+    border: 2px solid gray;
+    height: 200px;
+    min-width: 200px;
+}
+
+.deferloading {
+    background-color: green;
+    height: 300px;
+    width: 300px;
+}
+
+.container {
+    height: 100vh;
+}
+
+.hello {
+    bottom: 300px;
+    height: 10vh;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.hello2 {
+    bottom: 300px;
+    height: 10vh;
+    background-color: rgb(178, 12, 255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
